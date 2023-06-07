@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  position: relative;
+  background-color: darkblue;
+  color: whitesmoke;
+  height: 80vh;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.kid {
+  width: 400px;
+  padding-top: 60px;
+}
+
+.balz {
+  position: absolute;
+  bottom: 20px;
+  width: 200px;
+  right: 20px;
+}
+
+.point {
+  width: 300px;
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}
+
+/* main */
+
+section {
+  text-align: center;
+}
+
+.hello {
+  height: 50vh;
+}
+
+.hello > h2 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.hello > p {
+  padding-bottom: 10px;
+}
+
+.face {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 80px;
+}
+
+/* main 2 */
+
+.sayan {
+  background-color: antiquewhite;
+}
+
+.item {
+  max-width: 1000px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  text-align: start;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.car {
+  width: 400px;
+}
+
+.text {
+  margin-left: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.sayan {
+  margin: 0px auto;
+}
+
+.sayan > h2 {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+/* contact */
+
+.seeme {
+  padding: 80px 10px;
+}
+
+.seeme > p {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.shadow:hover {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* foot */
+
+footer {
+  background-color: antiquewhite;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.fo {
+  font-size: 15px;
+  color: darkslategray;
+}
+
+@media (max-width: 1250px) {
+  .point {
+    display: none;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .item {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .balz {
+    display: none;
+  }
+
+  .item {
+    text-align: center;
+    display: block;
+  }
+  .sayan {
+    height: fit-content;
+    padding-bottom: 50px;
+  }
+  .text {
+    margin: auto;
+  }
+  h3 {
+    padding: 20px;
+  }
+}
